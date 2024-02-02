@@ -2,7 +2,7 @@
 header{
 	color: purple;
 	background-color: silver;
-	font-family: "Bauhaus93", Arial, Georgia;
+	font-family: "Bauhaus93", Intro, Georgia;
 	letter-spacing: 0.3cm;
 	text-align: center;
 	
@@ -15,7 +15,7 @@ footer{
 	text-align: center;
 }
 main section{
-	border: 6pt solid silver;
+	border: 8pt solid silver;
 	border-radius: 60px;
 	padding: 2%;
 	width: 40%;
@@ -23,8 +23,8 @@ main section{
 main section h2{
 	color: purple;
 	background-color: silver;
-	font-family: "Bauhaus93", Arial, Georgia;
-	letter-spacing: 0,3cm;
+	font-family: "Bauhaus93", Intro, Georgia;
+	letter-spacing: 0.3cm;
 	text-align: center;
 }
 ul {
@@ -50,4 +50,7 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+}
+img {
+  border-radius: 50%;
 }
