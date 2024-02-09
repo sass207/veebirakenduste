@@ -1,0 +1,175 @@
+table{
+	width: 40%;
+	height: 200px;
+	border: 1pt solid black;
+}
+td{
+	border: 1pt solid black;
+	text-align: center;
+}
+/*1.rida 1.lahter*/ 
+#tabel1 tr:nth-child(1) td:nth-child(1){
+	background-color: purple;
+}
+/*1.rida 2.lahter*/ 
+#tabel1 tr:nth-child(1) td:nth-child(2){
+	background-color: pink;
+}
+/*2.rida 1.lahter*/ 
+#tabel1 tr:nth-child(2) td:nth-child(1){
+	background-color: red;
+}
+/*2.rida 2.lahter*/ 
+#tabel1 tr:nth-child(2) td:nth-child(2){
+	background-color: green;
+}
+/*3.rida 1.lahter*/ 
+#tabel1 tr:nth-child(3) td:nth-child(1){
+	background-color: silver;
+}
+/*2.rida 2.lahter*/ 
+#tabel1 tr:nth-child(3) td:nth-child(2){
+	background-color: blue;
+}
+#tabel4{
+	width: 330px;
+	height: 210px;
+	border: 1pt solid grey;
+	border-spacing: 0;
+}
+/*1.rida 1.lahter*/ 
+#tabel4 tr:nth-child(1){
+	background-color: blue;
+}
+/*2.rida 1.lahter*/ 
+#tabel4 tr:nth-child(2){
+	background-color: black;
+}
+/*3.rida 1.lahter*/ 
+#tabel4 tr:nth-child(3){
+	background-color: white;
+}
+#tabel5{
+	width: 330px; /*40% ekraani laiust*/
+	height: 210px;
+	border: 1pt solid grey;
+	border-spacing: 0;
+}
+#tabel5 td{
+	border:0;
+}	
+/*1.rida*/
+#tabel5 tr:nth-child(1) td:nth-child(1),
+#tabel5 tr:nth-child(3) td:nth-child(1) {
+	background-color: white;
+	width: 25%;
+    }
+#tabel5 tr:nth-child(1) td:nth-child(1),
+#tabel5 tr:nth-child(3) td:nth-child(1) {
+	background-color: white;
+	width: 25%;
+    }
+/*1.rida 2.lahter ja 3.rida 2.lahter*/
+#tabel5 tr:nth-child(1) td:nth-child(2),
+#tabel5 tr:nth-child(3) td:nth-child(2) {
+	background-color: blue;
+	width: 15%;
+    }
+/*2.rida*/
+#tabel5 tr:nth-child(2){
+	background-color: blue;
+	height:20%;
+    }
+/*1.rida 3.lahter ja 3.rida 3.lahter*/
+#tabel5 tr:nth-child(1) td:nth-child(3),
+#tabel5 tr:nth-child(3) td:nth-child(3) {
+	background-color: white;
+    }
+/*1.rida 1.lahter*/ 
+#tabel6 tr:nth-child(1){
+	background-color: #c25ca3;
+}
+/*2.rida 1.lahter*/ 
+#tabel6 tr:nth-child(2) td:nth-child(1){
+	background-color: #2e7073;
+}
+/*2,3 rida 2 lahter*/ 
+#tabel6 tr:nth-child(2) td:nth-child(2){
+	background-color: #6600ff;
+}
+/*3 rida 1,2 lahter*/ 
+#tabel6 tr:nth-child(3){
+	background-color: #ccffcc;
+}
+#tabel7{
+	width: 330px; /*40% ekraani laiust*/
+	height: 210px;
+	border: 1pt solid grey;
+	border-spacing: 0;
+}
+#tabel7 td{
+	border:0;
+}	
+/*1.rida*/
+#tabel7 tr:nth-child(1) td:nth-child(1),
+#tabel7 tr:nth-child(3) td:nth-child(1) {
+	background-color: white;
+	width: 42%;
+    }
+/*1.rida 2.lahter ja 3.rida 2.lahter*/
+#tabel7 tr:nth-child(1) td:nth-child(2),
+#tabel7 tr:nth-child(3) td:nth-child(2) {
+	background-color: red;
+	width: 15%;
+    }
+/*2.rida*/
+#tabel7 tr:nth-child(2){
+	background-color: red;
+	height:20%;
+    }
+/*1.rida 3.lahter ja 3.rida 3.lahter*/
+#tabel7 tr:nth-child(1) td:nth-child(3),
+#tabel7 tr:nth-child(3) td:nth-child(3) {
+	background-color: white;
+    }
+#japan{
+	width: 330px;
+	height: 210px;
+	border: 1pt solid grey;
+	border-spacing: 0;
+}
+/*1.rida 1.lahter*/ 
+#japan tr:nth-child(1){
+	background-color: white;
+}
+/*2.rida 1.lahter*/ 
+#japan tr:nth-child(2) td:nth-child(2){
+	background-color: red;
+	border-radius: 50%;
+}
+/*3.rida 1.lahter*/ 
+#japan tr:nth-child(3){
+	background-color: white;
+	border: 1pt solid white;
+}
+#japan td{
+	border:0;
+}
+#france{
+	width: 330px;
+	height: 210px;
+	border: 1pt solid grey;
+	border-spacing: 0;
+}
+/*1.rida 1.lahter*/ 
+#france tr:nth-child(1){
+	background-color: blue;
+}
+/*2.rida 1.lahter*/ 
+#france tr:nth-child(2){
+	background-color: white;
+}
+/*3.rida 1.lahter*/ 
+#france tr:nth-child(3){
+	background-color: red;
+}
